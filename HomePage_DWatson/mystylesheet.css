@@ -1,0 +1,206 @@
+﻿/*element css*/
+body {
+    background-color: powderblue;/**/
+   
+    margin: 0;
+    padding: 0;
+}
+
+main {
+
+}
+
+
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+    text-align:center;
+}
+
+nav    {
+    /*text-align:center;*/
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;    
+}
+
+nav li{
+    float: left;
+     
+}
+
+nav li a{
+ display:block;
+ padding:10px;
+ font-size:20px;
+}
+
+nav li a.highlight{
+    background-color:#808080;
+    color:white;
+}
+
+nav li a:hover:not(.highlight) {
+    background-color: #555;
+    color: white;
+}
+
+
+h1 {
+
+}
+
+h2{
+    font-family:'Times New Roman';
+}
+
+
+
+h4{
+    font-style:italic;
+    font-family:Arial;
+}
+
+.lastpage h5{
+    text-align: center;
+    font-size:100%;
+    color:coral;
+    margin:.5%;
+    border:dashed;
+}
+
+div h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+div p {
+        font-family:'Times New Roman', Times, serif;
+        color: ghostwhite;
+      }
+
+/*class css*/
+.container-part1{
+    background-color:lightslategray;
+}
+
+.container-part2{
+     background-image: url(Images/Space.jpg);
+     background-size: 100%;
+     float:left;
+     width: 50%;
+     display:inline-block;
+     
+     
+     
+}
+
+.container-part3{
+    background-image:url(Images/TempleT.png);
+    background-size:100%;
+    float:right;
+    width: 50%;
+    display:inline-block;
+    
+    
+}
+
+.section-part1{
+    margin:0;
+    padding:50px;
+    max-width:950px;
+    overflow:hidden;
+}
+
+.portfolio-h3{
+    font-family:sans-serif;
+    color:darkblue;
+    /*font-style:oblique;*/
+}
+.profile-image{
+    width: 20%;
+    height:5%;
+    float:left;
+    padding:3%;
+    /*min-height:200px;*/
+
+}
+
+.temple-gallery {
+    width: 50%;
+    height:50%;
+    float:left;
+    padding:3%;
+    /*min-height:200px;*/
+    /*display:inline;*/
+    
+}
+
+.image-gallery1 {
+   
+    list-style: none;
+    display:inline-block;
+
+}
+
+.float-imagel{
+    float:left;
+    width: 50%;
+
+}
+
+.float-imager{
+    float:right;
+    width:50%;
+
+}
+.clear{
+    clear:both;
+}
+.div-info {
+   width: 80%;
+   margin: 0;
+   padding: 2%;
+   overflow: hidden;
+}
+
+.contact-info a {
+  padding: 2%;
+  display: inline-block;
+}
+/*id css*/
+
+#main-portfolio{
+    background-color:azure;
+}
+
+#header-title{
+    background-color:cadetblue;
+}
+
+#header-marquee{
+    background-color:cornflowerblue;
+}
+
+#programming-image1{
+    padding: 0;
+    float:right;
+    width: 50%;
+}
+
+#programming-image2{
+    padding: 0;
+    float:left;
+    width: 50%;
+}
+
+#backpack{
+
+    padding-top:50%;
+}
+
+
